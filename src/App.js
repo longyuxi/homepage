@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import SEO from "react-seo-component";
 
 class App extends Component {
   constructor(props) {
@@ -43,11 +44,21 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <SEO
+        title="Yuxi (Jaden) Long"
+        titleTemplate=""
+        titleSeparator=" "
+        description="Yuxi (Jaden) Long's curriculum vitae."
+        image='../assets/images/splash-image.png'
+        pathname='intduke.com'
+        siteLanguage='en'
+        siteLocale='en_US'
+        author='Jaden Long'/>
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Contact data={this.state.resumeData.main} />
+        {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
+        {/* <Contact data={this.state.resumeData.main} /> */}
         <Footer data={this.state.resumeData.main} />
       </div>
     );

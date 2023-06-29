@@ -23,7 +23,7 @@ class Resume extends Component {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p dangerouslySetInnerHTML={{__html: education.description}}></p>
         </div>
       );
     });
@@ -34,9 +34,46 @@ class Resume extends Component {
           <h3>{work.company}</h3>
           <p className="info">
             {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
+            <span>&bull;</span> <em>{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          <p dangerouslySetInnerHTML={{__html: work.description}}></p>
+          <br/>
+        </div>
+      );
+    });
+
+    const extracurricular = this.props.data.extracurricular.map(function (extracurricular) {
+      return (
+        <div key={extracurricular.company}>
+          <h3>{extracurricular.company}</h3>
+          <p className="info">
+            {extracurricular.title}
+            <span>&bull;</span> <em>{extracurricular.years}</em>
+          </p>
+          <p dangerouslySetInnerHTML={{__html: extracurricular.description}}></p>
+          <br/>
+        </div>
+      );
+    });
+
+    const projects = this.props.data.projects.map(function (projects) {
+      return (
+        <div key={projects.company}>
+          <h3>{projects.company}</h3>
+          <p className="info">
+            {projects.title}
+          </p>
+          <p dangerouslySetInnerHTML={{__html: projects.description}}></p>
+          <br/>
+        </div>
+      );
+    });
+
+    const random = this.props.data.random.map(function (random) {
+      return (
+        <div key={random.company}>
+          <p dangerouslySetInnerHTML={{__html: random.description}}></p>
+          <br/>
         </div>
       );
     });
@@ -54,9 +91,11 @@ class Resume extends Component {
       );
     });
 
+    const slide_duration = 1300;
+
     return (
       <section id="resume">
-        <Slide left duration={1300}>
+        <Slide left duration={slide_duration}>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -72,11 +111,11 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
+        <Slide left duration={slide_duration}>
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Experience</span>
               </h1>
             </div>
 
@@ -84,14 +123,49 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
+        <Slide left duration={slide_duration}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Extracurricular</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{extracurricular}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={slide_duration}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Projects</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{projects}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={slide_duration}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Random Things</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{random}</div>
+          </div>
+        </Slide>
+
+        {/* <Slide left duration={slide_duration}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
                 <span>Skills</span>
               </h1>
             </div>
-
             <div className="nine columns main-col">
               <p>{skillmessage}</p>
 
@@ -100,7 +174,8 @@ class Resume extends Component {
               </div>
             </div>
           </div>
-        </Slide>
+        </Slide> */}
+
       </section>
     );
   }

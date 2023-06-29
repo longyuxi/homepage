@@ -1,46 +1,24 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "name":"Yuxi (Jaden) Long",
+    "description":"Every finite field has prime power order",
+    "image":"headshot.png",
+    "bio":"I am an undergraduate student at Duke University working on computational biology. My current research focuses on protein and drug design, but I also have experience in bioinformatics and deep learning based image analysis through previous research projects.<br/><br/>My English name is Jaden, and my Chinese name is 龙玉玺 (a reasonably approximate pronouncation Lone Yu Shee).",
+    "contactmessage":"",
+    "email": "longyuxi@live.com",
+    "github":"https://github.com/longyuxi",
+    "project":"https://github.com/longyuxi/homepage",
+    "website": "https://www.yuxi-long.com",
+    "resumedownload":"https://www.yuxi-long.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/jaden-long-a0945715a/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/longyuxi",
         "className":"fa fa-github"
       }
     ]
@@ -49,30 +27,90 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Duke University",
+        "degree":"Double Major in Mathematics and Computer Science, Minor in Biology",
+        "graduated":"Expected Graduation May 2024",
+        "description":"<b>Relevant courses</b>: Algebraic Topology I, Representation Theory, Real Analysis I, Topology, Algebraic Structures I, Nonlinear Dynamics and Chaos, Complex Analysis, Combinatorics, Computational Biology, Molecular Assembly and Computation, Principles of Immunology, Cell Biology, Design and Analysis of Algorithms, Introduction to Computational Genomics, Neurosymbolic Machine Learning, Computer Vision"
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Donald Lab, Duke University",
+        "title":"Undergraduate Researcher",
+        "years":"August 2022 - Present",
+        "description":"<ul.circle><li>(In progress) Developing an persistent homology algorithm model the positive and negative design energy spaces to faciliate design of targeted drugs.</li></ul.circle>"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Memorial Sloan Kettering Cancer Center",
+        "title":"Computational Biology Summer Intern",
+        "years":"June 2022 - August 2022",
+        "description":"<ul.circle><li>Developed the <b>first ever</b> interpretable multiple instance learning algorithm for predicting progression after chemotherapy for patients with neuroblastoma, a cancer diagnosed in about <b>1,000 children</b> yearly.</li> <li>Shadowed Dr.Shakeel Modak, one of the leading neuroblastoma oncologists in the United States. Observed his patient visits, surgery procedures, learned about medical technology development, and learned about the daily routines of a physician-scientist.</li></ul.cricle>"
+      },
+      {
+        "company": "Kiehart Lab, Duke University",
+        "title": "Undergraduate Researcher",
+        "years": "October 2020 - Present",
+        "description": "<ul.circle><li><b>Independently</b> developed a pipeline that identifies large plasmid inserts using a de Bruijn graph assembled from short read sequencing data. Identified the <b>exact location of a 7,258 bp plasmid</b> and confirmed the expression of the <i>sick</i> gene during Drosophila dorsal closure.</li><li>Given sequencing data from Illumina MiSeq and Oxford Nanopore, researched and executed a novel hybrid assembly algorithm (WENGAN) to identify the <b>exact sequence of a 5,400 bp transposable element of interest</b>. Manuscript from this project is <b>pending publication</b>.</li><li>Using GATK, performed variant calling on MiSeq sequencing data and screened out <b>75</b> EMS-induced lethal mutations that could have led to a deficiency in the gene <i>Df(2R)ES1</i> in the Drosophila dorsal closure process.</li></ul.circle>"
+      },
+      {
+        "company": "Bissig Lab, Duke University",
+        "title": "Undergraduate Researcher",
+        "years": "October 2021 - May 2022",
+        "description": "<ul.circle><li>Using <b>R, Python and a suite of bioinformatics tools</b>, analyzed the relative proportion of hepatocytes from two different humans in <b>101</b> humanized mice using the relative abundance of known alleles to analyze the drug reactivity of different SNPs.</li><li>Used <b>hisat2 and DESeq2</b> to identify differentially expressed genes in a set of <b>six</b> mice with half of them treated with a certain drug and the other half as control.</li></ul.circle>"
+      },
+      {
+        "company": "Bass Connections: Creating Artificial Worlds with AI to Improve Energy Access Data",
+        "title": "Data Scientist",
+        "years": "August 2021 - August 2022",
+        "description": "<ul.circle><li>Generated synthetic overhead imagery for energy infrastructure with a <b>generative adversarial network (GP-GAN)</b>. Improved the within domain precision of our <b>deep learning object detection model</b> by <b>14.5%</b> and cross domain precision by <b>96.7%</b> by combining real wind turbine and synthetic imageries.</li><li>Developed scripts to test synthetic imageries across all pairs of domains autonomously. Developed scripts that implemented other <b>deep-learning based domain adaptation techniques</b> as comparison, including CycleGAN, DM-ADA, and CyCADA.</li><li>My colleague and I have presented this work at the <b>2022 NeurIPS Climate Change AI</b> workshop as a poster presentation.</li></ul.circle>"
+      }
+    ],
+    "extracurricular":[
+      {
+        "company": "InTranscription @Duke",
+        "title": "President, Co-Founder",
+        "years": "January 2022 - Present",
+        "description": "<ul.circle><li>Founded and led InTranscription@Duke, the <b>highest quality</b> biotechnology club at Duke. This club gathered <b>107 general members</b> in the first six months, with <b>22 active members</b> working on a diverse array of projects weekly.</li><li>Built up <b>an executive board of 7 students</b> passionate about my mission for the club.</li><li>Established partnership with <b>three</b> well-respected organizations at Duke and connected their resources to us.</li><li>Organized and hosted <b>five</b> events, with event attendees representing <b>10 different affiliations</b>.</li><li><b>Designed the logo</b> of InT@Duke with Inkscape. Programmed the website of InT@Duke with React and published to <a href='https://intduke.com'>intduke.com</a> using Vercel.</li></ul.circle>"
+      },
+      {
+        "company": "Duke Motorsports Club",
+        "title": "Electrical Engineer",
+        "years": "August 2020 - May 2021",
+        "description": "<ul.circle><li>Designed a wiring harness for a vehicle that competed in Formula SAE (FSAE) with 100 connections using RapidHarness and Autodesk CAD Electrical.</li><li>Programmed the MoTeC M130 Engine Control Unit (ECU) and allowed for automatic shutdown of the engine after sensor disconnection.</li><li>Performed meticulous labeling, crimping, and heat shrinking to produce a finished wiring.</li></ul.circle>"
+      }
+    ],
+    "projects":[
+      {
+        "company": "bio-image-unet and DeepTissue",
+        "title": "",
+        "years": "March 2021 - Present",
+        "description": "<ul.circle><li>Worked with a biophysics visiting scholar Daniel Haertter to design a set of softwares that track <b>the geometry of hundreds of cells across thousands of frames</b> in a fluorescence microscopy movie.</li><li>Developed <code>bio-image-unet</code>, a <b>neural network</b> that semantically segments cell boundaries in microscopy images. Implemented a custom data loader, an augmentation pipeline, an uncommon network structure known as Siamese U-Net with PyTorch, and 5 different loss functions, <b>which combined to close previously visible holes</b> in the final segmentation. <b>A sample of some recent results</b>: <a href='https://youtu.be/N0Mc37Jhs_c'><i>video 1</i></a>, <a href='https://youtu.be/xvvotvmG_Fk'><i>video 2</i></a>. The Siamese U-Net was later used in a separate project on sarcomere analysis by Daniel, due to its <b>robust performance</b>.</li><li>Devised a <b>custom algorithm</b> to evaluate cell tracking quality, and evaluated different tracking algorithms with it. Planning to publish our software to PyPI so that <b>developmental biologists around the world</b> can install and analyze their microscopy data with our software. A current version of the package and GUI are published on TestPyPI.</li></ul.circle>"
+      },
+      {
+        "company": "An Interactive Animation of Persistent Homology in Biomolecules",
+        "title": "",
+        "years": "March 2023 - June 2023",
+        "description": "<ul.circle><li>Designed and implemented the world's first <b>interactive visualization</b> of persistent homology <b>in the context of biomolecules</b>. This animation <b>only requires a browser</b> and is <b>publicly available</b> on <a href='https://www.intduke.com/ph'>https://www.intduke.com/ph</a>.</li><li>This animation premiered at <i>InT@UCLA Biohackathon 2023</i>, and had <b>received accolades from computer scientists and biochemists alike</b> for its ability to <b>visually explain</b> the concept of persistent homology and <b>enlighten its relevance to biochemistry</b>. This animation received third place in the competition.</li></ul.circle>"
+      },
+      {
+        "company": "Monte-Carlo Tree Search for Protein Design",
+        "title": "",
+        "years": "Februrary 2022 - May 2022",
+        "description": "<ul.circle><li>Implemented a <b>Monte-Carlo tree search (MCTS)</b> algorithm along with a neural network for conformational energy prediction that explores the protein design space. Interfaced with the <b>OSPREY</b> protein design software to evaluate the energy of a protein conformation.</li><li>Sadly, this project was discontinued in favor of other projects, due to the lack of time and lack of promising results.</li></ul.circle>"
+      },
+      {
+        "company": "Hoo-Ray: A distributed execution engine for Haskell",
+        "title": "",
+        "years": "March 2023 - May 2023",
+        "description": "<ul.circle><li>Jointly designed and implemented an automatic parallelization engine for Haskell which we named <i>Hoo-Ray</i>. Hoo-Ray exploits the purity of Haskell functions and statically <b>analyzes its functional dependencies</b>. Hoo-Ray then uses a greedy scheduler to <b>execute the program in parallel</b> on a cluster of computers.</li><li>We have met with and received feedback from <b>the creator of Haskell</b>, <i>Simon Peyton-Jones</i>. He expressed his interest in our work and gave ideas for future directions.</li><li>This work has been submitted to the <i>2023 ACM SIGPLAN ICFP Haskell Symposium</i>. <!-- <span style='color:red'><b>The review results will probably come back before the submission of this CV so no need to write the results yet.</b></span> --></li></ul.circle>"
+      }
+    ],
+    "random":[
+      {
+        "company": "",
+        "title": "",
+        "years": "",
+        "description": "<ul.circle><li>When one of the most prominent math educators, <b>3Blue1Brown</b>, visited Duke campus for a talk in March of 2023, I coordinated his visit and led him around Duke campus. He inspired my persistent homology animation.</li><li>I am a <b>classical guitar</b> player.</li></ul.circle><ul.circle><ul.circle><li>At Duke, I have performed solo, chamber music, and in a Chinese music ensemble.</li><li>I was elected and still am a forum administrator on the <b>largest Chinese guitar forum</b>, GuitarChina.</li><li>I have published 8 transcriptions on MuseScore, a sheet music sharing platform. They have received <b>more than 15,000 views</b> in total.</li><li>I record my playing and upload them to <a href='https://www.youtube.com/channel/UCTC6h174gdoeiWrCnBuMZ0w'>YouTube</a> and Bilibili, a Chinese video sharing platform. My channels have received <b>more than 30,000 views</b> in total.</li><li>In 2020, I have gotten <b>third place</b> in the high school track of <i>Columbus State University Guitar Symposium and Competition</i> among high school students aspiring to play professionally.</li></ul.circle></ul.circle>"
       }
     ],
     "skills":[
