@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import Screensaver from "./Screensaver";
+import ParticleAnimation from 'react-particle-animation'
+import BIRDS from 'vanta/src/vanta.birds'
+import * as THREE from 'three'
+import { VantaModal } from "./VantaModal";
 
 class Header extends Component {
   render() {
@@ -12,8 +17,11 @@ class Header extends Component {
     const description = this.props.data.description;
 
     return (
+      <>
+      <VantaModal >
+
       <header id="home">
-        <ParticlesBg type="circle" bg={true} />
+        {/* <ParticlesBg type="circle" bg={true} /> */}
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -41,23 +49,10 @@ class Header extends Component {
                 Resume
               </a>
             </li>
-
-            {/* <li>
-              <a className="smoothscroll" href="#portfolio">
-                Works
-              </a>
-            </li>
-
-            <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li> */}
-
           </ul>
         </nav>
 
-        <div className="row banner">
+        <div className="row banner" style={{}}>
           <div className="banner-text">
             <Fade bottom>
               <h1 className="responsive-headline">{name}</h1>
@@ -87,6 +82,9 @@ class Header extends Component {
           </a>
         </p>
       </header>
+
+      </VantaModal>
+      </>
     );
   }
 }

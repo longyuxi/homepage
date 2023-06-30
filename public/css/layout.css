@@ -33,7 +33,6 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   
    text-align: center;
    overflow: hidden;
 }
@@ -45,10 +44,12 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
+/* left align banner */
 header .banner {
    display: inline-block;
-   vertical-align: middle;
-   margin: 0 auto;
+   vertical-align: top;
+   margin-top: 10%;
+   /* margin: 0 auto; */
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
@@ -62,7 +63,7 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 18px/1.9em 'opensans-regular', serif;
    color: #ddd;
    margin: 0 auto;
    width: 70%;

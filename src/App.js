@@ -9,6 +9,8 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 import SEO from "react-seo-component";
+import Screensaver from "./Components/Screensaver";
+import { VantaModal } from "./Components/VantaModal";
 
 class App extends Component {
   constructor(props) {
@@ -44,6 +46,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        {/* <VantaTest /> */}
         <SEO
         title="Yuxi (Jaden) Long"
         titleTemplate=""
@@ -60,6 +63,7 @@ class App extends Component {
         {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
         {/* <Contact data={this.state.resumeData.main} /> */}
         <Footer data={this.state.resumeData.main} />
+        <Screensaver />
       </div>
     );
   }
