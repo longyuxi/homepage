@@ -3,13 +3,12 @@
     "name":"Yuxi (Jaden) Long",
     "description":"Every finite field has prime power order",
     "image":"headshot.png",
-    "bio":"I am an undergraduate student at Duke University working on computational biology. My current research focuses on protein and drug design, but I also have experience in bioinformatics and deep learning based image analysis through previous research projects.<br/><br/>My English name is Jaden, and my Chinese name is 龙玉玺 (a reasonably approximate pronouncation is <i>Lone-You Shee</i>).",
+    "bio":"I am an undergraduate student at Duke University working on computational biology. My current research focuses on protein and drug design, but I also have experience in bioinformatics and deep learning based image analysis through previous research projects.<br/><br/>My English name is Jaden, and my Chinese name is 龙玉玺 (a reasonably approximate pronouncation is <i>Lone-Yew Shee</i>).",
     "contactmessage":"",
     "email": "longyuxi@live.com",
     "github":"https://github.com/longyuxi",
     "project":"https://github.com/longyuxi/homepage",
     "website": "https://www.yuxi-long.com",
-    "resumedownload":"https://www.yuxi-long.com",
     "social":[
       {
         "name":"linkedin",
@@ -76,7 +75,7 @@
         "company": "Duke Motorsports Club",
         "title": "Electrical Engineer",
         "years": "August 2020 - May 2021",
-        "description": "<ul.circle><li>Designed a wiring harness for a vehicle that competed in Formula SAE (FSAE) with 100 connections using RapidHarness and Autodesk CAD Electrical.</li><li>Programmed the MoTeC M130 Engine Control Unit (ECU) and allowed for automatic shutdown of the engine after sensor disconnection.</li><li>Performed meticulous labeling, crimping, and heat shrinking to produce a finished wiring.</li></ul.circle>"
+        "description": "<ul.circle><li>Designed a wiring harness for a vehicle that competed in Formula SAE (FSAE) with 100 connections using RapidHarness and Autodesk CAD Electrical.</li><li>Programmed the MoTeC M130 Engine Control Unit (ECU) and allowed for automatic shutdown of the engine after sensor disconnection.</li><li>Performed labeling, crimping, and heat shrinking to produce a finished wiring.</li></ul.circle>"
       }
     ],
     "projects":[
@@ -110,7 +109,7 @@
         "company": "",
         "title": "",
         "years": "",
-        "description": "<ul.circle><li>I love <b>Latin literature</b>. I have taken a Latin paleography class in my freshman year, which examines the handwritings of the Latin writers (mostly monks copying the Bible).</li><li>When one of the most prominent math educators, <b>3Blue1Brown</b>, visited Duke campus for a talk in March of 2023, I coordinated his visit and led him around Duke campus. He inspired my persistent homology animation.</li><li>I am a <b>classical guitar</b> player.</li></ul.circle><ul.circle><li>At Duke, I have performed solo, chamber music, and in a Chinese music ensemble.</li><li>I was elected and still am a forum administrator on the <b>largest Chinese guitar forum</b>, GuitarChina.</li><li>I have published 8 transcriptions on MuseScore, a sheet music sharing platform. They have received <b>more than 15,000 views</b> in total.</li><li>I record my playing and upload them to <a href='https://www.youtube.com/channel/UCTC6h174gdoeiWrCnBuMZ0w'>YouTube</a> and Bilibili, a Chinese video sharing platform. My channels have received <b>more than 30,000 views</b> in total.</li><li>In 2020, I have gotten <b>third place</b> in the high school track of <i>Columbus State University Guitar Symposium and Competition</i> among high school students aspiring to play professionally.</li></ul.circle>"
+        "description": "<ul.circle><li>I love <b>Latin literature</b>. I have taken a Latin paleography class in my freshman year, which examines the handwritings of the Latin writers (mostly monks copying the Bible).</li><li>When one of the most prominent math educators, <b>3Blue1Brown</b>, visited Duke campus for a talk in March of 2023, I coordinated his visit and led him around Duke campus. He inspired my persistent homology animation.</li><li>I am a <b>classical guitar</b> player.</li></ul.circle><ul.circle><li>At Duke, I have performed solo, chamber music, and in a Chinese music ensemble.</li><li>I was elected and still am a forum administrator on the <b>largest Chinese guitar forum</b>, GuitarChina.</li><li>I have published 8 transcriptions on <a href='https://musescore.com/user/29755265/sheetmusic'>MuseScore</a>, a sheet music sharing platform. They have received <b>more than 15,000 views</b> in total.</li><li>I record my playing and upload them to <a href='https://www.youtube.com/channel/UCTC6h174gdoeiWrCnBuMZ0w'>YouTube</a> and <a href='https://space.bilibili.com/436685121'>Bilibili</a>, a Chinese video sharing platform. My channels have received <b>more than 30,000 views</b> in total.</li><li>In 2020, I have gotten <b>third place</b> in the high school track of <i>Columbus State University Guitar Symposium and Competition</i> among high school students aspiring to play professionally.</li></ul.circle>"
       }
     ],
     "skills":[
